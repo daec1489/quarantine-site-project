@@ -5,6 +5,9 @@ html {
   .important {
     text-align: center;
   }
+  hr {
+      color: white;
+  }
   h1 {
     padding: 10px;
     font-family: Rockwell;
@@ -130,5 +133,9 @@ html {
   }
   img {
     image-rendering: crisp-edges;
+  }
+  .paragraph {
+    background-color: transparent;
+    text-align: left;
   }
   
