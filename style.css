@@ -1,13 +1,6 @@
 html {
     scroll-behavior: smooth;
     margin: none;
-    overflow-y: scroll;
-    scrollbar-width: none;
-    -ms-overflow-style: none;
-  }
-  .html::-webkit-scrollbar {
-    width: 0;
-    height: 0;
   }
   .important {
     text-align: center;
@@ -133,3 +126,4 @@ html {
   img {
     image-rendering: crisp-edges;
   }
+  
