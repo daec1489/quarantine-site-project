@@ -130,7 +130,6 @@ html {
   }
   img {
     image-rendering: crisp-edges;
-    display: block;
   }
   .famspeech {
     font-size: 18px;
@@ -138,5 +137,5 @@ html {
     color: white;
     font-family: Futura;
     padding: 5px;
-    line-height: 5cm;
+    line-height: 2cm;
   }
