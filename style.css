@@ -25,6 +25,7 @@ html {
   h3 {
     font-family: Futura;
     font-weight: lighter;
+    font-size: 45px;
   }
   p {
     text-align: center;
@@ -125,7 +126,7 @@ html {
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
   }
   img {
     image-rendering: crisp-edges;
