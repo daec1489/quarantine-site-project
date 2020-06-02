@@ -5,9 +5,6 @@ html {
   .important {
     text-align: center;
   }
-  hr {
-      color: white;
-  }
   h1 {
     padding: 10px;
     font-family: Rockwell;
@@ -135,7 +132,10 @@ html {
     image-rendering: crisp-edges;
   }
   .paragraph {
+    font-size: 18px;
     background-color: transparent;
     text-align: left;
+    color: white;
+    font-family: Futura;
   }
   
