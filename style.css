@@ -24,7 +24,7 @@ h2 {
 }
 h3 {
   font-family: Futura;
-  font-weight: lighter;
+  font-weight: bolder;
   font-size: 45px;
 }
 p {
@@ -156,7 +156,7 @@ img {
 }
 .blue {
   float: right;
-  margin-left: 40%;
+  margin-left: 45%;
   background-color: lightcyan;
   padding: 20px 20px 20px 45px;
 }
@@ -164,6 +164,6 @@ img {
   float: right;
   margin-top: 35px;
   background-color: plum;
-  mix-blend-mode: lighten;
+  mix-blend-mode: soft-light;
   padding: 20px 20px 20px 45px;
 }
