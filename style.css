@@ -34,7 +34,6 @@ html {
     background:
       rgb(247, 201, 201);
     mix-blend-mode: lighten;
-    position: relative;
     padding: 20px;
   }
   body {
@@ -133,9 +132,10 @@ html {
   }
   .famspeech {
     font-size: 18px;
-    line-height: 5px;
+    line-height: 2cm;
     text-align: left;
     color: white;
     font-family: Futura;
-    padding-right: 20px;
+    margin-right: 10px;
+    display: block;
   }
