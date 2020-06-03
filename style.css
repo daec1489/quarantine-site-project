@@ -130,9 +130,8 @@ ul {
 img {
   image-rendering: crisp-edges;
 }
-.famspeech {
+.speech {
   font-size: 22px;
-  background: transparent;
   text-align: justify;
   color: white;
   font-family: Futura;
