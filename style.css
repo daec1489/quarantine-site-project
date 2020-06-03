@@ -139,3 +139,12 @@ html {
     margin-right: 10px;
     display: block;
   }
+  .dreams {
+    background-image: url("images/sky.jpg");
+    height: 400px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 100px;
+  }
