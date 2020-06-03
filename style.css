@@ -153,12 +153,18 @@ img {
   margin-top: none;
   background-color: lavender;
   padding: 20px 45px 20px 20px;
+  display: block;
 }
 .blue {
-  float: right;
-  margin-top: 10%;
   margin-right: 50%;
   background-color: lightcyan;
   padding: 20px;
+  display: inline;
 }
-
+.pink {
+  float: left;
+  margin-top: none;
+  background-color: lavender;
+  padding: 20px 45px 20px 20px;
+  display: block;
+}
