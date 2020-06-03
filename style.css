@@ -139,6 +139,7 @@ img {
   display: block;
 }
 .dreams {
+  display: flex;
   background-image: url("images/sky.jpg");
   height: 800px;
   background-attachment: fixed;
@@ -155,6 +156,7 @@ img {
 }
 .blue {
   float: right;
+  flex-grow: 1;
   margin-left: 45%;
   background-color: lightcyan;
   padding: 20px 20px 20px 45px;
