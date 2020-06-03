@@ -154,6 +154,7 @@ img {
   padding: 20px 45px 20px 20px;
 }
 .blue {
+  float: right;
   background-color: lightcyan;
   padding: 20px 20px 20px 45px;
 }
