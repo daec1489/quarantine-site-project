@@ -1,6 +1,7 @@
 html {
   scroll-behavior: smooth;
   margin: none;
+  overflow-x: hidden;
 }
 .important {
   text-align: center;
