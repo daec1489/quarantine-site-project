@@ -15,6 +15,7 @@ h1 {
   font-weight: lighter;
   font-size: 100px;
   display: block;
+  margin-top: 25px;
   margin-bottom: 50px;
 }
 .right {
