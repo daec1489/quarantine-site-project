@@ -5,6 +5,9 @@ html {
 .important {
   text-align: center;
 }
+header {
+  height: 1000px;
+}
 h1 {
   padding: 10px;
   font-family: Rockwell;
@@ -25,7 +28,8 @@ h2 {
 h3 {
   font-family: Futura;
   font-weight: bolder;
-  font-size: 45px;
+  font-size: 35px;
+  padding: 10px;
 }
 p {
   float: center;
@@ -127,9 +131,6 @@ ul {
   background-size: cover;
   margin-bottom: 50px;
 }
-img {
-  image-rendering: crisp-edges;
-}
 .speech {
   font-size: 22px;
   text-align: justify;
@@ -148,25 +149,30 @@ img {
   margin-bottom: 100px;
 }
 .hopes {
+  font-family: Futura;
   font-size: 20px;
   padding: 15px 15px 20px 15px;
   text-align: justify;
+  width: 650;
 }
 .purple {
   float: left;
   margin-top: none;
+  margin-left: 10px;
   background-color: lavender;
   padding: 20px 45px 20px 20px;
 }
 .blue {
   vertical-align: right;
+  float: right;
   background-color: lightcyan;
   padding: 20px 20px 20px 45px;
 }
 .pink {
   vertical-align: right;
   float: right;
-  margin-top: 35px;
+  margin-top: 80px;
+  margin-right: 10px;
   background-color: thistle;
   padding: 20px 20px 20px 45px;
 }
