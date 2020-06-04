@@ -1,13 +1,15 @@
 html {
   scroll-behavior: smooth;
   margin: none;
-  overflow-x: hidden;
 }
 .important {
   text-align: center;
 }
 header {
-  height: 1000px;
+  min-height: 100vh;
+}
+hr {
+  margin-bottom: 50px;
 }
 h1 {
   padding: 10px;
@@ -51,12 +53,14 @@ body {
   background-repeat: no-repeat;
   color: white;
   margin: 0px;
+  overflow-x: hidden;
 }
 .photo {
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
+/* Profile section */
 .profile {
   background-image: url("images/lolitsme.jpg");
   height: 500px;
@@ -87,6 +91,7 @@ th {
 ul {
   list-style-type: square;
 }
+/* Likes & dislikes section */
 .lds {
   background-image: url("images/cat.jpeg");
   height: 550px;
@@ -97,6 +102,7 @@ ul {
   background-size: cover;
   margin-bottom: 10px;
 }
+/* Hobbies section*/
 .hobbies {
   background-image: url("images/yoasobi.jpg");
   height: 700px;
@@ -122,6 +128,7 @@ ul {
   margin: 35% 50% 0 0;
   mix-blend-mode: normal;
 }
+/* Family section */
 .fam {
   background-image: url("images/kazoku.jpg");
   height: 800px;
@@ -141,6 +148,7 @@ ul {
   padding: 40px;
   display: block;
 }
+/* Hopes & dreams section */
 .dreams {
   background-image: url("images/sky.jpg");
   height: 800px;
@@ -177,4 +185,13 @@ ul {
   margin-right: 10px;
   background-color: thistle;
   padding: 20px 20px 20px 45px;
+}
+.back {
+  font-size: 60px;
+  margin: 70px 50px 50px 50px;
+  font-family: Futura;
+}
+a {
+  color: white;
+  text-decoration: none;
 }
