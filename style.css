@@ -5,6 +5,7 @@ html {
 .important {
   text-align: center;
 }
+
 header {
   min-height: 100vh;
 }
@@ -62,7 +63,7 @@ body {
 /* Profile section */
 .profile {
   background-image: url("images/lolitsme.jpg");
-  height: 500px;
+  height: 100vh;
   background-color: indigo;
   background-blend-mode: lighten;
   background-attachment: fixed;
@@ -93,7 +94,7 @@ ul {
 /* Likes & dislikes section */
 .lds {
   background-image: url("images/cat.jpeg");
-  height: 550px;
+  height: 100vh;
   background-blend-mode: hard-light;
   background-attachment: fixed;
   background-position: center;
@@ -104,7 +105,7 @@ ul {
 /* Hobbies section*/
 .hobbies {
   background-image: url("images/yoasobi.jpg");
-  height: 700px;
+  height: 100vh;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -150,7 +151,7 @@ ul {
 /* Hopes & dreams section */
 .dreams {
   background-image: url("images/sky.jpg");
-  height: 800px;
+  height: 150vh;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -185,6 +186,7 @@ ul {
   background-color: thistle;
   padding: 20px 20px 20px 45px;
 }
+/* End section */
 .back {
   font-size: 60px;
   margin: 70px 50px 50px 50px;
