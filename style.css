@@ -141,13 +141,19 @@ ul {
 /* Likes & dislikes section */
 .lds {
   background-image: url("images/cat.jpeg");
+  background-color: lightsteelblue;
   background-blend-mode: hard-light;
   margin-bottom: 10px;
+  background-size: 80vh;
+  background-position: right;
 }
 /* Hobbies section*/
 .hobbies {
   background-image: url("images/yoasobi.jpg");
   margin-bottom: 100px;
+  background-color: lightseagreen;
+  background-size: 100vh;
+  background-position: top;
 }
 .box {
   background: rgb(174, 198, 207);
@@ -170,7 +176,8 @@ ul {
   background-image: url("images/kazoku.jpg");
   background-color: palevioletred;
   background-blend-mode: screen;
-  background-position: top;
+  background-position: center;
+  background-size: 60vh;
   margin-bottom: 50px;
 }
 .speech {
