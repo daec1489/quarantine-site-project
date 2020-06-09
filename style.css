@@ -98,7 +98,7 @@ body {
   margin-right: auto;
 }
 .parallax {
-  height: 800px;
+  height: 100vh;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -138,7 +138,6 @@ ul {
 /* Hobbies section*/
 .hobbies {
   background-image: url("images/yoasobi.jpg");
-  height: 700px;
   margin-bottom: 100px;
 }
 .box {
@@ -160,7 +159,6 @@ ul {
 /* Family section */
 .fam {
   background-image: url("images/kazoku.jpg");
-  height: 800px;
   background-color: palevioletred;
   background-blend-mode: screen;
   background-position: top;
