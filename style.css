@@ -38,11 +38,11 @@ html {
 }
 header {
   min-height: 100vh;
-  margin-top: 20px;
-  margin-bottom: 100px;
+  margin-top: 45px;
+  margin-bottom: 200px;
 }
 .midhead {
-  transform: translateY(15vh);
+  transform: translateY(25vh);
 }
 hr {
   margin-bottom: 50px;
@@ -50,7 +50,6 @@ hr {
 h1 {
   padding: 10px;
   font-family: Kameron;
-  font-weight: lighter;
   font-size: 100px;
   display: block;
   margin-top: 25px;
@@ -64,7 +63,7 @@ h2 {
   margin-top: 50px;
   font-family: Spectral;
   font-style: italic;
-  font-weight: lighter;
+  font-weight: 300;
 }
 h3 {
   font-weight: bolder;
@@ -99,7 +98,7 @@ body {
   margin-right: auto;
 }
 .parallax {
-  height: 100vh;
+  height: 800px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -139,6 +138,7 @@ ul {
 /* Hobbies section*/
 .hobbies {
   background-image: url("images/yoasobi.jpg");
+  height: 700px;
   margin-bottom: 100px;
 }
 .box {
@@ -163,6 +163,7 @@ ul {
   height: 800px;
   background-color: palevioletred;
   background-blend-mode: screen;
+  background-position: top;
   margin-bottom: 50px;
 }
 .speech {
