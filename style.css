@@ -184,6 +184,7 @@ ul {
 .side {
   font-size: 45px;
   padding-left: 50px;
+  margin-top: 0;
   transform: translate(100%, 75%);
   background-color: thistle;
 }
