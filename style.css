@@ -182,7 +182,8 @@ ul {
   margin-bottom: 50px;
 }
 .side {
-  font-size: 35px;
+  font-size: 25px;
+  padding-left: 50px;
   margin: 0 70% 0 0;
   background-color: thistle;
 }
