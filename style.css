@@ -174,10 +174,10 @@ ul {
 /* Family section */
 .fam {
   background-image: url("images/kazoku.jpg");
-  background-color: palevioletred;
-  background-blend-mode: screen;
+  background-color: lightpink;
+  background-blend-mode: overlay;
   background-position: center;
-  background-size: 60vh;
+  background-size: 55vh;
   margin-bottom: 50px;
 }
 .speech {
