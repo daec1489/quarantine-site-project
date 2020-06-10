@@ -177,14 +177,14 @@ ul {
   background-image: url("images/kazoku.jpg");
   background-color: lightpink;
   background-blend-mode: overlay;
-  background-position: center;
+  background-position: left;
   background-size: 55vh;
   margin-bottom: 50px;
 }
 .side {
-  font-size: 25px;
+  font-size: 45px;
   padding-left: 50px;
-  margin: 0 70% 0 0;
+  transform: translate(100%, 75%);
   background-color: thistle;
 }
 .speech {
