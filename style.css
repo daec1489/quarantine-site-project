@@ -170,6 +170,7 @@ ul {
   padding: 10px;
   margin: 35% 50% 0 0;
   mix-blend-mode: normal;
+  transform: translateY(35%);
 }
 /* Family section */
 .fam {
@@ -179,6 +180,11 @@ ul {
   background-position: center;
   background-size: 55vh;
   margin-bottom: 50px;
+}
+.side {
+  font-size: 35px;
+  margin: 0 70% 0 0;
+  background-color: thistle;
 }
 .speech {
   font-size: 22px;
