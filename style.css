@@ -154,6 +154,7 @@ ul {
   background-color: lightseagreen;
   background-size: 100vh;
   background-position: top;
+  margin-bottom: 250px;
 }
 .box {
   background: rgb(174, 198, 207);
@@ -178,14 +179,14 @@ ul {
   background-color: lightpink;
   background-blend-mode: overlay;
   background-position: left;
-  background-size: 55vh;
+  background-size: 75vh;
   margin-bottom: 50px;
 }
 .side {
   font-size: 45px;
   padding-left: 50px;
   margin-top: 0;
-  transform: translate(100%, 75%);
+  transform: translate(100%, 25vh);
   background-color: thistle;
 }
 .speech {
