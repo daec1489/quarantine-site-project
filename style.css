@@ -64,7 +64,6 @@ p {
   text-shadow: 2px 2px 3px rgb(174, 198, 207);
   background: rgb(247, 201, 201);
   width: 50%;
-  margin-top: 15%;
   padding: 20px;
 }
 .smallText {
@@ -106,6 +105,7 @@ table {
   margin-left: 10%;
   margin-right: 15%;
   font-size: 20px;
+  text-shadow: 2px 2px 3px rgb(174, 198, 207);
   color: white;
   background-color: rgb(247, 201, 201);
   padding: 15px;
