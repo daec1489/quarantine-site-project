@@ -66,7 +66,7 @@ p {
   text-shadow: 2px 2px 3px rgb(174, 198, 207);
   background: rgb(247, 201, 201);
   width: 50%;
-  padding: 20px 30px 20px 20px;
+  padding: 35px;
 }
 .smallText {
   font-family: Nunito;
@@ -87,15 +87,17 @@ p {
 /* Profile section */
 .profile {
   background-image: url("images/lolitsme.jpg");
-  background-color: indigo;
-  background-blend-mode: lighten;
+  background-color: rgb(174, 198, 207);
+  background-blend-mode: soft-light;
+  background-size: 100vh;
+  background-position: right;
   margin-bottom: 100px;
 }
 
 /* Likes & dislikes section */
 .lds {
   background-image: url("images/cat.jpeg");
-  background-color: lightsteelblue;
+  background-color: rgb(174, 198, 207);
   background-blend-mode: hard-light;
   margin-bottom: 10px;
   background-size: 80vh;
@@ -153,7 +155,7 @@ ul {
 }
 .side {
   font-size: 45px;
-  padding-left: 50px;
+  padding: 50px;
   margin-top: 0;
   transform: translate(75%, 25vh);
 }
@@ -180,29 +182,28 @@ ul {
   float: left;
   margin-top: none;
   margin-left: 10px;
-  background-color: lavender;
+  background-color: rgb(230,203,231);
   padding: 20px 45px 20px 20px;
 }
 .blue {
   vertical-align: right;
   float: right;
-  background-color: lightcyan;
+  background-color: rgb(174, 198, 207);
   padding: 20px 20px 20px 45px;
   margin-left: 10%;
   margin-bottom: 10%;
 }
 .pink {
-  vertical-align: right;
   float: right;
-  margin-top: 80px;
   margin-right: 10px;
-  background-color: thistle;
+  background-color: rgb(247, 201, 201);
   padding: 20px 20px 20px 45px;
 }
 /* Footer section */
 footer {
   display: block;
   font-size: 60px;
+  margin-top: 50px;
 }
 a {
   color: white;
