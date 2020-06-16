@@ -1,6 +1,7 @@
 html {
   scroll-behavior: smooth;
-  margin: none;
+  margin: 0px;
+  width: 100%;
 }
 body {
   margin: auto;
@@ -151,10 +152,10 @@ ul {
   margin-bottom: 50px;
 }
 .side {
-  font-size: 45px;
-  padding: 50px;
+  font-size: 35px;
+  padding: 30px;
   margin-top: 0;
-  transform: translate(75%, 25vh);
+  transform: translate(65%, 25vh);
 }
 .speech {
   font-size: 22px;
