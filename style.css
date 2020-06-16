@@ -89,7 +89,7 @@ p {
 .profile {
   background-image: url("images/lolitsme.jpg");
   background-color: rgb(174, 198, 207);
-  background-size: 100vh;
+  background-size: 75vh;
   background-position: right;
   margin-bottom: 100px;
 }
@@ -99,8 +99,6 @@ p {
   background-image: url("images/cat.jpeg");
   background-color: rgb(174, 198, 207);
   margin-bottom: 10px;
-  background-size: 80vh;
-  background-position: right;
 }
 table {
   display: block;
