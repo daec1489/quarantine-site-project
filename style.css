@@ -88,7 +88,6 @@ p {
 .profile {
   background-image: url("images/lolitsme.jpg");
   background-color: rgb(174, 198, 207);
-  background-blend-mode: soft-light;
   background-size: 100vh;
   background-position: right;
   margin-bottom: 100px;
@@ -98,7 +97,6 @@ p {
 .lds {
   background-image: url("images/cat.jpeg");
   background-color: rgb(174, 198, 207);
-  background-blend-mode: hard-light;
   margin-bottom: 10px;
   background-size: 80vh;
   background-position: right;
@@ -124,7 +122,7 @@ ul {
 /* Hobbies section*/
 .hobbies {
   background-image: url("images/yoasobi.jpg");
-  background-color: lightseagreen;
+  background-color: rgb(178,163,184);
   background-size: 100vh;
   background-position: top;
 }
@@ -147,8 +145,7 @@ ul {
 /* Family section */
 .fam {
   background-image: url("images/kazoku.jpg");
-  background-color: lightpink;
-  background-blend-mode: overlay;
+  background-color: rgb(178,163,184);
   background-position: left;
   background-size: 75vh;
   margin-bottom: 50px;
@@ -179,11 +176,9 @@ ul {
   width: 50%;
 }
 .purple {
-  float: left;
   margin-top: none;
-  margin-left: 10px;
-  background-color: rgb(230,203,231);
-  padding: 20px 45px 20px 20px;
+  background-color: rgb(178,163,184);
+  padding: 20px;
 }
 .blue {
   vertical-align: right;
@@ -196,6 +191,7 @@ ul {
 .pink {
   float: right;
   margin-right: 10px;
+  margin-top: 80px;
   background-color: rgb(247, 201, 201);
   padding: 20px 20px 20px 45px;
 }
@@ -203,7 +199,6 @@ ul {
 footer {
   display: block;
   font-size: 60px;
-  margin-top: 50px;
 }
 a {
   color: white;
