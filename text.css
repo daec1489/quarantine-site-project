@@ -3,16 +3,18 @@
   text-align: center;
 }
 h1 {
-  padding-left: 70px;
-  padding-right: 70px;
   font-family: Kameron;
   font-size: 100px;
   display: block;
   margin-top: 15px;
   margin-bottom: 50px;
 }
-.right {
+h1.right {
   text-align: right;
+  padding-right: 35px;
+}
+h1.left {
+  padding-left: 35px;
 }
 h2 {
   margin-top: 50px;
