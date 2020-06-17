@@ -16,7 +16,6 @@ body {
   overflow-x: hidden;
   animation: fade-in 3s ease-in;
 }
-
 header {
   min-height: 100vh;
   margin-top: 45px;
@@ -41,7 +40,6 @@ table {
   padding: 15px;
   position: absolute;
 }
-
 
 .box {
   background: rgb(174, 198, 207);
@@ -82,7 +80,7 @@ table {
   width: 50%;
 }
 .purple {
-  background-color: rgb(178,163,184);
+  background-color: rgb(178, 163, 184);
   padding: 20px 20px 20px 45px;
   float: left;
 }
