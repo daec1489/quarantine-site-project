@@ -1,3 +1,4 @@
+/* General */
 html {
   scroll-behavior: smooth;
   margin: 0px;
@@ -16,6 +17,11 @@ body {
   overflow-x: hidden;
   animation: fade-in 3s ease-in;
 }
+hr {
+  margin-bottom: 50px;
+}
+
+/* Header section*/
 header {
   min-height: 100vh;
   margin-top: 45px;
@@ -24,11 +30,7 @@ header {
 .midhead {
   margin: auto;
 }
-
-hr {
-  margin-bottom: 50px;
-}
-
+/* Likes & dislikes section*/
 table {
   display: block;
   margin-top: 2%;
@@ -40,7 +42,7 @@ table {
   padding: 15px;
   position: absolute;
 }
-
+/* Hobbies section*/
 .box {
   background: rgb(174, 198, 207);
   text-align: left;
@@ -57,12 +59,12 @@ table {
   mix-blend-mode: normal;
   margin-top: 25%;
 }
-
+/* Family section */
 .side {
   font-size: 35px;
   padding: 30px;
   margin-top: 0;
-  transform: translate(65%, 25vh);
+  transform: translate(70%, 25vh);
 }
 .speech {
   font-size: 22px;
@@ -71,7 +73,7 @@ table {
   padding: 40px;
   display: block;
 }
-
+/* Hopes & dreams section */
 .hopes {
   transform: translateX(30px);
   font-size: 20px;
@@ -89,12 +91,13 @@ table {
   float: right;
   background-color: rgb(174, 198, 207);
   padding: 20px 45px 20px 20px;
-  margin-left: 10%;
-  margin-bottom: 10%;
+  margin-left: 5%;
+  margin-bottom: 5%;
 }
 .pink {
   float: right;
   margin-left: 50%;
+  margin-top: 30px;
   background-color: rgb(247, 201, 201);
   padding: 20px 45px 20px 20px;
 }
@@ -102,5 +105,5 @@ table {
 footer {
   font-size: 60px;
   margin-top: 100px;
-  margin-bottom: 25px;
+  margin-bottom: 50px;
 }
