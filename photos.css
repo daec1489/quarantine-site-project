@@ -1,0 +1,49 @@
+/* General */
+.photo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.parallax {
+  height: 100vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* Profile section */
+.profile {
+  background-image: url("images/lolitsme.jpg");
+  background-color: rgb(174, 198, 207);
+  background-size: 75vh;
+  background-position: right;
+  margin-bottom: 100px;
+}
+
+/* Likes & dislikes section */
+.lds {
+  background-image: url("images/cat.jpeg");
+  background-color: rgb(174, 198, 207);
+  margin-bottom: 10px;
+}
+/* Hobbies section*/
+.hobbies {
+  background-image: url("images/yoasobi.jpg");
+  background-color: rgb(178, 163, 184);
+  background-size: 100vh;
+  background-position: top;
+}
+/* Family section */
+.fam {
+  background-image: url("images/kazoku.jpg");
+  background-color: rgb(178, 163, 184);
+  background-position: left;
+  background-size: 75vh;
+  margin-bottom: 50px;
+}
+/* Hopes & dreams section */
+.dreams {
+  background-image: url("images/sky.jpg");
+  margin-bottom: 100px;
+  height: 1000px;
+}
