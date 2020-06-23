@@ -6,8 +6,7 @@ html {
 }
 body {
   background: linear-gradient(
-    -45deg,
-    pink,
+    -90deg,
     rgb(247, 201, 201),
     rgb(174, 198, 207),
     rgb(178, 163, 184)
@@ -18,7 +17,7 @@ body {
   margin: 0px;
   overflow-x: hidden;
   animation: fade-in 3s ease-in;
-  animation: gradient 5s ease infinite;
+  animation: gradient 8s ease infinite;
 }
 hr {
   margin-bottom: 50px;
