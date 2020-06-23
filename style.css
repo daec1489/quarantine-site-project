@@ -5,17 +5,20 @@ html {
   width: 100%;
 }
 body {
-  margin: auto;
   background: linear-gradient(
-    to bottom right,
+    -45deg,
+    pink,
     rgb(247, 201, 201),
-    rgb(174, 198, 207)
+    rgb(174, 198, 207),
+    rgb(178, 163, 184)
   );
-  background-repeat: no-repeat;
+  background-size: 400% 400%;
   color: white;
+  text-shadow: 2px 2px 3px rgb(174, 198, 207);
   margin: 0px;
   overflow-x: hidden;
   animation: fade-in 3s ease-in;
+  animation: gradient 5s ease infinite;
 }
 hr {
   margin-bottom: 50px;
