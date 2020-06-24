@@ -20,21 +20,21 @@ body {
   animation-delay: 3s;
   animation: gradient 8s ease infinite;
 }
-#overlay{
-  height:100vh;
-  width:100%;
+#overlay {
+  height: 100vh;
+  width: 100%;
   background: linear-gradient(
     -45deg,
     rgb(247, 201, 201),
     rgb(174, 198, 207),
     rgb(178, 163, 184)
   );
-  position:fixed;
-  left:0;
-  top:0;
+  position: fixed;
+  left: 0;
+  top: 0;
   z-index: 999;
   animation: load-fade 3s ease-out;
- }
+}
 .loader {
   width: 80px;
   height: 80px;
@@ -60,11 +60,11 @@ hr {
 /* Header section*/
 header {
   min-height: 100vh;
-  margin-top: 45px;
-  margin-bottom: 200px;
+  margin-bottom: 25px;
 }
 .midhead {
   margin: auto;
+  transform: scale(0.75, 0.75);
 }
 /* Likes & dislikes section*/
 table {
