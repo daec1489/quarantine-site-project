@@ -37,6 +37,15 @@ body {
 
   animation: spin 1s infinite linear;
 }
+#overlay{
+  height:100%;
+  width:100%;
+  background:rgba(178, 163, 184, 1);
+  position:fixed;
+  left:0;
+  top:0;
+  animation: load-fadein 2s ease-out;
+ }
 hr {
   margin-bottom: 50px;
 }
