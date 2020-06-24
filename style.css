@@ -19,6 +19,24 @@ body {
   animation: fade-in 3s ease-in;
   animation: gradient 8s ease infinite;
 }
+.spinner {
+  width: 80px;
+  height: 80px;
+
+  border: 2px solid rgb(174, 198, 207);
+  border-top: 3px solid rgb(247, 201, 201);
+  border-right: 3px solid rgb(178, 163, 184);
+  border-radius: 100%;
+
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+
+  animation: spin 1s infinite linear;
+}
 hr {
   margin-bottom: 50px;
 }
