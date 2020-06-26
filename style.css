@@ -34,7 +34,7 @@ body {
   top: 0;
   z-index: 999;
   animation: load-fade 3s ease-out;
-  transition: 1s ease;
+  transition: 1s all linear;
 }
 .loader {
   width: 80px;
