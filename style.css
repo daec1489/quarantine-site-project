@@ -67,6 +67,10 @@ header {
   margin: auto;
   transform: scale(0.75, 0.75);
 }
+#container {
+  clear: both;
+  z-index: 99;
+}
 /* Likes & dislikes section*/
 table {
   display: block;
