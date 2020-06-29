@@ -61,7 +61,8 @@ hr {
 /* Header section*/
 header {
   min-height: 100vh;
-  margin-bottom: 25px;
+  max-height: 300vh;
+  margin-bottom: 35vh;
 }
 .midhead {
   margin: auto;
