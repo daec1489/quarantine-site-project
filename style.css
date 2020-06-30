@@ -2,8 +2,8 @@
 html {
   scroll-behavior: smooth;
   margin: 0px;
-  min-width: 900px;
-  max-width: 1500px;
+  min-width: 100%;
+  min-height: 100%;
 }
 body {
   background: linear-gradient(
@@ -17,11 +17,11 @@ body {
   text-shadow: 2px 2px 3px rgb(174, 198, 207);
   margin: 0px;
   overflow-x: hidden;
-  animation: fade-in 5s ease-in;
-  animation-delay: 3s;
+  animation: fade-in 25s ease-in;
   animation: gradient 8s ease infinite;
 }
 #overlay {
+  opacity: 0;
   height: 100vh;
   width: 100%;
   background: linear-gradient(
@@ -54,6 +54,7 @@ body {
   margin: auto;
 
   animation: spin 1s infinite linear;
+  transition: 1s ease;
 }
 hr {
   margin-bottom: 50px;
@@ -62,8 +63,7 @@ hr {
 /* Header section*/
 header {
   min-height: 100vh;
-  max-height: 300vh;
-  margin-bottom: 35vh;
+  margin-bottom: 25px;
 }
 .midhead {
   margin: auto;
