@@ -19,7 +19,7 @@
     />
     <link rel="shortcut icon" type="image/png" href="images/flower.png" />
   </head>
-  <body>
+  <body onload="startTime()">
     <script src="script.js"></script>
     <div id="overlay">
       <div class="loader"></div>
@@ -58,6 +58,7 @@
         </map>
         <hr width="50%" color="white" />
       </div>
+      <h1 div id="txt" class="left" style="opacity: 0.5;"></div>
     </header>
     <section class="profile parallax">
       <h1 class="left">
@@ -197,8 +198,11 @@
     <footer class="important smallText">
       <a href="#top" title="Top">︿</a>
       <a href="#top" title="Top">Back to top</a>
-      <hr width="25%" color="white" />
-      <a href="https://icons8.com/" class="credits" title="Icons8 website">Icons by Icons8</a>
+      <img
+        src="images/mark.svg"
+        style="filter: brightness(0) invert(1); transform: scale(0.5, 0.5);"
+      />
+      <h2 class="important" style="font-size: 18px;">Aim even higher.</h2>
     </footer>
   </body>
 </html>
