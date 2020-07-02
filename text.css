@@ -38,7 +38,22 @@ p {
   font-family: Nunito;
   font-weight: bolder;
 }
-
+/* Header section */
+.cover{
+  position: absolute;
+  font-size: 70px;
+  font-family: Spectral;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, 10%);
+  display: block;
+  animation: fade-in 2s ease-in;
+  width: 15%;
+}
+.cover:hover{
+  position: absolute;
+  display: none;
+  animation: load-fade 2s ease-out;
 /* Footer section */
 a {
   display: block;

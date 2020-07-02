@@ -70,6 +70,9 @@ header {
   margin: auto;
   transform: scale(0.75, 0.75);
 }
+.midhead:hover{
+  z-index: 10;
+}
 /* Likes & dislikes section*/
 table {
   display: block;
