@@ -54,7 +54,9 @@ p {
 }
 .cover:hover {
   position: absolute;
+  display: none;
   animation: load-fade 1s ease-out;
+  cursor: grab;
 }
 /* Footer section */
 a {
