@@ -54,14 +54,12 @@ p {
   position: absolute;
   display: none;
   animation: load-fade 2s ease-out;
+}
 /* Footer section */
 a {
   display: block;
   color: white;
   text-decoration: none;
-}
-.credits {
-  font-size: 18px;
 }
 /* Likes & dislikes section */
 th {
