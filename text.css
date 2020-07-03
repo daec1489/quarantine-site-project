@@ -39,21 +39,22 @@ p {
   font-weight: bolder;
 }
 /* Header section */
-.cover{
+.cover {
   position: absolute;
-  font-size: 70px;
+  font-size: 60px;
   font-family: Spectral;
   left: 50%;
-  margin-right: -50%;
-  transform: translate(-50%, 10%);
-  display: block;
-  animation: fade-in 2s ease-in;
-  width: 15%;
+  transform: translate(-50%, -10%);
+  animation: fade-in 3s ease-in;
+  height: 500px;
+  width: 500px;
+  display: flex;
+  align-items: center;
+  text-align: center;
 }
-.cover:hover{
+.cover:hover {
   position: absolute;
-  display: none;
-  animation: load-fade 2s ease-out;
+  animation: load-fade 1s ease-out;
 }
 /* Footer section */
 a {
