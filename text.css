@@ -41,22 +41,14 @@ p {
 /* Header section */
 .cover {
   position: absolute;
-  font-size: 60px;
+  font-size: 25px;
   font-family: Spectral;
   left: 50%;
-  transform: translate(-50%, -10%);
-  animation: fade-in 3s ease-in;
+  transform: translate(-50%, 75%);
   height: 500px;
   width: 500px;
-  display: flex;
   align-items: center;
   text-align: center;
-}
-.cover:hover {
-  position: absolute;
-  display: none;
-  animation: load-fade 1s ease-out;
-  cursor: grab;
 }
 /* Footer section */
 a {
