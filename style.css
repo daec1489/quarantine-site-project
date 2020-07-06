@@ -65,11 +65,13 @@ cursor: pointer;
 top: 40%; 
 position: fixed;
 transition: 1s ease;
+opacity: 0.5;
 }
 .nav:hover{
   transform: scale(2, 2);
-  transform: translateX(15px);
-  transition: transform 1s ease;
+  transform: translateX(20px);
+  transition: transform opacity 1s ease;
+  opacity: 1;
 }
 .sidenav {
   font-family: Spectral;
