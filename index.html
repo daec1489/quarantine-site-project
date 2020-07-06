@@ -19,19 +19,35 @@
     />
     <link rel="shortcut icon" type="image/png" href="images/flower.png" />
   </head>
-  <body onload="startTime()">
+  <body>
     <script src="script.js"></script>
     <div id="overlay">
       <div class="loader"></div>
     </div>
     <header>
+      <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+          >&times;</a
+        >
+        <a href="#prfl">profile</a>
+        <a href="#lks">likes & dislikes</a>
+        <a href="#hbs">hobbies</a>
+        <a href="#fmly">family</a>
+        <a href="#drms">hopes & dreams</a>
+      </div>
+      <span
+        onclick="openNav()"
+        style="cursor: pointer; top: 40%; position: fixed;"
+        ><h3>☰</h3></span
+      >
       <a name="top"></a>
       <h1 class="important">dana andrea espejo callejo</h1>
       <div class="midhead">
         <hr width="35%" color="white" />
-        <h2 class="important cover"><span>
-          "Inexperienced, heartless, but even so... Be beautiful."
-        </span>
+        <h2 class="important cover">
+          <span>
+            "Inexperienced, heartless, but even so... Be beautiful."
+          </span>
         </h2>
         <img
           src="images/violet.png"
@@ -59,7 +75,6 @@
         </map>
         <hr width="50%" color="white" />
       </div>
-      <h1 div id="txt" class="left" style="opacity: 0.5;"></div>
     </header>
     <section class="profile parallax">
       <h1 class="left">
@@ -199,10 +214,7 @@
     <footer class="important smallText">
       <a href="#top" title="Top">︿</a>
       <a href="#top" title="Top">Back to top</a>
-      <img
-        src="images/mark.svg"
-        class="footerhr"
-      />
+      <img src="images/mark.svg" class="footerhr" />
       <h2 class="important" style="font-size: 18px;">"Aim ever higher."</h2>
     </footer>
   </body>
