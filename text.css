@@ -39,16 +39,12 @@ p {
   font-weight: bolder;
 }
 /* Header section */
-.cover {
-  position: absolute;
-  font-size: 25px;
-  font-family: Spectral;
-  left: 50%;
-  transform: translate(-50%, 75%);
-  height: 500px;
-  width: 500px;
-  align-items: center;
-  text-align: center;
+.cover:hover span{
+  display: none;
+}
+.cover:hover:before{
+  content: "click on the flowers!";
+  animation: fade-in 2s ease;
 }
 /* Footer section */
 a {
