@@ -60,6 +60,17 @@ hr {
   margin-bottom: 50px;
 }
 /* Sidenav section */
+.nav{
+cursor: pointer; 
+top: 40%; 
+position: fixed;
+transition: 1s ease;
+}
+.nav:hover{
+  transform: scale(2, 2);
+  transform: translateX(15px);
+  transition: transform 1s ease;
+}
 .sidenav {
   font-family: Spectral;
   height: 100%;
@@ -95,12 +106,18 @@ hr {
   font-size: 36px;
   margin-left: 50px;
 }
-
-@media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
+#main {
+  transition: margin-left 0.5s;
 }
-.flower{
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px;
+  }
+  .sidenav a {
+    font-size: 18px;
+  }
+}
+.flower {
   top: 50%;
 }
 /* Header section*/
