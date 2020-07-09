@@ -65,7 +65,7 @@ cursor: pointer;
 top: 40%; 
 position: fixed;
 transition: 1s ease;
-opacity: 0.5;
+opacity: 0.25;
 }
 .nav:hover{
   transform: scale(2, 2);
