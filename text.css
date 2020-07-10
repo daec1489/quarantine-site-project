@@ -39,10 +39,10 @@ p {
   font-weight: bolder;
 }
 /* Header section */
-.cover:hover span{
+.cover:hover span {
   display: none;
 }
-.cover:hover:before{
+.cover:hover:before {
   content: "click on the flowers!";
   animation: fade-in 2s ease;
 }

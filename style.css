@@ -60,14 +60,14 @@ hr {
   margin-bottom: 50px;
 }
 /* Sidenav section */
-.nav{
-cursor: pointer; 
-top: 40%; 
-position: fixed;
-transition: 1s ease;
-opacity: 0.25;
+.nav {
+  cursor: pointer;
+  top: 40%;
+  position: fixed;
+  transition: 1s ease;
+  opacity: 0.25;
 }
-.nav:hover{
+.nav:hover {
   transform: scale(2, 2);
   transform: translateX(20px);
   transition: transform opacity 1s ease;
