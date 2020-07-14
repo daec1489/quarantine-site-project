@@ -1,4 +1,4 @@
-let loader = document.getElementById("overlay");
+const loader = document.getElementById("overlay");
 
 window.addEventListener("load", function () {
   setTimeout(function () {
